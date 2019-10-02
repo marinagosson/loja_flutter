@@ -24,6 +24,7 @@ class CategoryScreen extends StatelessWidget {
           ),
         ),
         body: TabBarView(
+          physics: NeverScrollableScrollPhysics(),
           children: <Widget>[
             Container(color: Colors.red),
             Container(color: Colors.teal)
